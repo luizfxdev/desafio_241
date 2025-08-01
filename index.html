@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mistério das Notas Musicais Perdidas</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>🎵 Mistério das Notas Musicais Perdidas</h1>
+      <p class="description">Ajude o maestro a encontrar as notas perdidas para completar a oitava musical!</p>
+
+      <div class="input-group">
+        <label for="notes-input">Insira as notas encontradas (separadas por vírgula):</label>
+        <input type="text" id="notes-input" placeholder="Ex: A, C, D, F, G" />
+      </div>
+
+      <div class="buttons">
+        <button class="glow-on-hover" id="find-button">ENCONTRAR</button>
+        <button class="glow-on-hover" id="return-button">RETORNAR</button>
+      </div>
+
+      <div class="result-container">
+        <h2>Resultado</h2>
+        <div id="result"></div>
+        <div id="calculation"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
